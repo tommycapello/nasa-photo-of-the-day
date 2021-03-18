@@ -27,27 +27,27 @@ In this project you will build out a application to show the NASA photo of the d
 
 This project was put together using create-react-app (CRA). You will not need to install CRA in order to make this project work. Follow the steps below to setup the project with the proper dependencies.
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] Download project dependencies by running `npm install`
-- [ ] Start up the app using `npm start`
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: `git push origin <firstName-lastName>`.
+- [done] Create a forked copy of this project.
+- [done] Clone your OWN version of the repository in your terminal
+- [done] Download project dependencies by running `npm install`
+- [done] Start up the app using `npm start`
+- [done] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [done] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [done] Push commits: `git push origin <firstName-lastName>`.
 
 ### Task 2: MVP
 
 **Planning**
 
-- [ ] If you want, this is the time to make a simple design spec (look up ["simple wireframes"](https://www.google.com/search?q=simple+wireframes) to find resources & examples). **A pen & paper sketch (or outline) is often the fastest way to start your planning.**
-- [ ] Once you have a design plan in mind, break down the designs into individual components.
-- [ ] Plan which components will hold state, what data each needs from props (if any), and where you will be making your data fetch.
-- [ ] Now it's time to jump into the code!
+- [done] If you want, this is the time to make a simple design spec (look up ["simple wireframes"](https://www.google.com/search?q=simple+wireframes) to find resources & examples). **A pen & paper sketch (or outline) is often the fastest way to start your planning.**
+- [done] Once you have a design plan in mind, break down the designs into individual components.
+- [done] Plan which components will hold state, what data each needs from props (if any), and where you will be making your data fetch.
+- [done] Now it's time to jump into the code!
 
 **File structure**
 
-- [ ] Take a look at your planned components. Create the folders and files you need for each component.
-- [ ] Leave most of them blank for now - you need to get your data from the API before you can really get these built.
+- [done] Take a look at your planned components. Create the folders and files you need for each component.
+- [done] Leave most of them blank for now - you need to get your data from the API before you can really get these built.
 
 **Fetching the Data**
 
@@ -88,9 +88,9 @@ Now is the time to build out your other components. Compose your UI, and then pa
 if (!props.photoOfTheDay) return <h3>Loading...</h3>;
 
 // Display your component as normal after the data has been fetched
-return (
-  {/* your normal JSX here */}
-);
+return {
+  /* your normal JSX here */
+};
 ```
 
 - Read through the API docs carefully. You will read through many technical docs as a developer, so start now to try and understand them.
@@ -108,6 +108,6 @@ Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge Branch into `main` (student's Repository).
 
-----
+---
 
 ## Part II - [Advanced Styling Techniques](DAY_TWO_README.md)
