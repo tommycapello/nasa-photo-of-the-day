@@ -4,8 +4,8 @@ const Header = (props) => {
 
   return (
     <header className='header'>
-      <h2>{hData.title}</h2>
-        <h4>{hData.date}</h4>
+      <h1>{hData.title}</h1>
+      <h2>{hData.date}</h2>
     </header>
   )
 }

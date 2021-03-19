@@ -3,7 +3,7 @@ import React from 'react'
 const Body = props => {
     const { bData } = props;
     return (
-      <section className='gallery-container'>
+      <section>
         <img
             alt ='NASA POTD'
             src={bData.url}
