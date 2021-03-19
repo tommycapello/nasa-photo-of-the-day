@@ -3,15 +3,12 @@ import React from 'react'
 const Body = props => {
     const { bData } = props;
     return (
-      <section>
+        <div>
         <img
             alt ='NASA POTD'
             src={bData.url}
         />
-        <p>
-            {bData.explanation}
-        </p>
-      </section>
+        <p>{bData.explanation}</p></div>
     )
   }
 
