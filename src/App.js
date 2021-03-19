@@ -4,6 +4,27 @@ import Header from './components/Header'
 import Body from './components/Body'
 import { BASE_URL, API_KEY } from './constants/constants'
 import "./App.css";
+import styled from 'styled-components'
+
+const ButtonDiv = styled.div`
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  &:hover {
+    transform: rotate(360deg);
+    transition-duration: 2s;
+  }
+  button {
+    margin: 2%;
+    width: 40%;
+  }`
+
+const AppDiv = styled.div`
+background-color: grey;
+display: flex-flow;
+justify-content: space-evenly;
+margin:5%;
+padding:2%;`
 
 function App() {
 
@@ -24,13 +45,15 @@ function App() {
   }, [year, month, day])
 
   return (
-    <div className="App">
+    <AppDiv className="App">
       <Header hData={data}/>
+      <ButtonDiv>
       <button onClick={() => setYear(year - 1)}> Go Back One Year </button>
       <button onClick={() => setMonth(month - 1)}> Go Back One Month </button>
       <button onClick={() => setDay(day - 1)}> Go Back One Day </button>
+      </ButtonDiv>
       <Body bData={data}/>
-    </div>
+    </AppDiv>
   );
 }
 
